@@ -29,11 +29,11 @@ In the TensorFlow app that I will write I expect the following code flow;
 5. Make predictions based on the data
 6. Create graphs to visualize the results
 
-Data Quality Assessment: Describe the quality status of the data set and the way you assessed it. I would guess the data quality is high. It's been download 1354 times in the last month. I assessed it using the methods we learned in lab 2 in the transform.py app.
+Data Quality Assessment: Describe the quality status of the data set and the way you assessed it. The data quality is high. I assessed it using the methods we learned in lab 2 in the transform.py app.
 
 Data Transformation Models used: Briefly describe the transformations and models used. Just as we did in Lab 2, I checked for and removed rows with NaN, duplicate values and outliers.
 
-and final results that you were able to achieve. If there are any special instructions needed to execute your code (e.g., signing up to a specific API to access the dataset that is needed) those need to be listed as well. I used a dataset from Kaggle.com. Registration is required. The api key and username need to be placed in a file located at user/.kaggle/kaggle.json.
+and final results that you were able to achieve. If there are any special instructions needed to execute your code (e.g., signing up to a specific API to access the dataset that is needed) those need to be listed as well. I used a dataset from Kaggle.com. Registration is required. The api key and username need to be placed in a file located at user/.kaggle/kaggle.json. Some of these apps can be run locally on downloaded data during developement, but they are designed to run on an Airflow docker container runing on an EC2 instance. 
 
 Infographic: A simple infographic describing the architecture of your data pipeline including datasets, storage, and tools used along with another final infographic describing the results of the engineering task accomplished. Examples can be provided if needed.
 
