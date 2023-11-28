@@ -12,14 +12,14 @@ def feature_extract():
     # S3 bucket directory (data warehouse)
     DIR_wh = 's3://ece5984-bucket-jrnoll/Project'  # Insert here
     # Get data from S3 bucket as a pickle file
-    # wheat_df = np.load(s3.open('{}/{}'.format(DIR_wh, 'clean_wheat_prices.pkl')), allow_pickle=True)
-    # corn_df = np.load(s3.open('{}/{}'.format(DIR_wh, 'clean_corn_prices.pkl')), allow_pickle=True)
-    # rice_df = np.load(s3.open('{}/{}'.format(DIR_wh, 'clean_rice_prices.pkl')), allow_pickle=True)
+    wheat_df = np.load(s3.open('{}/{}'.format(DIR_wh, 'clean_wheat_prices.pkl')), allow_pickle=True)
+    corn_df = np.load(s3.open('{}/{}'.format(DIR_wh, 'clean_corn_prices.pkl')), allow_pickle=True)
+    rice_df = np.load(s3.open('{}/{}'.format(DIR_wh, 'clean_rice_prices.pkl')), allow_pickle=True)
 
     # Load pickle data locally
-    wheat_df = np.load('clean_wheat_prices.pkl', allow_pickle=True)
-    corn_df = np.load('clean_corn_prices.pkl', allow_pickle=True)
-    rice_df = np.load('clean_rice_prices.pkl', allow_pickle=True)
+    # wheat_df = np.load('clean_wheat_prices.pkl', allow_pickle=True)
+    # corn_df = np.load('clean_corn_prices.pkl', allow_pickle=True)
+    # rice_df = np.load('clean_rice_prices.pkl', allow_pickle=True)
 
     # Set Target Variable
     target_wheat = pd.DataFrame(wheat_df['Price_wheat_ton'])
@@ -105,4 +105,5 @@ def feature_extract():
     with s3.open('{}/{}'.format(DIR_rice, 'y_test_rice.pkl'), 'wb') as f:
         f.write(pickle.dumps(y_test))
 
+# for local testing
 # feature_extract()
