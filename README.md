@@ -37,6 +37,8 @@ and final results that you were able to achieve. If there are any special instru
 
 Infographic: A simple infographic describing the architecture of your data pipeline including datasets, storage, and tools used along with another final infographic describing the results of the engineering task accomplished. Examples can be provided if needed.
 
+![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/pipeline%201.png)
+
 Code: A link to GitHub Repository https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices
 
 Thorough Investigation: This critically assesses the viability of your idea: Based on the results of this project (your pilot project, your prototype, etc), from a technical leadership point of view, what are your conclusions or recommendations for continuing this project in terms of scaling it up? How would you assess the innovativeness of your project? Any technical or platform concerns, difficulties, or limitations of the pipeline for the project? Based on your experience and results, what next step would you recommend to take this project to the next level/phase?
