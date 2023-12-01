@@ -41,8 +41,8 @@ In the TensorFlow app that I will write I expect the following code flow;
 
 **Graphs of the results**
 ![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Corn%20Annual%20Price%20graph.png)
-![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Rice%20Annual%20Price%20graph.png)
-![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Wheat%20Annual%20Price%20graph.png)
+![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Rice%20Annual%20Price%20Graph.png)
+![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Wheat%20Annual%20Price%20Graph.png)
 ![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Price%20Variation%20in%2020225.png)
 
 **Code: A link to GitHub Repository** https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices
