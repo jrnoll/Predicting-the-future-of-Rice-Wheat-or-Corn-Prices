@@ -39,6 +39,12 @@ In the TensorFlow app that I will write I expect the following code flow;
 
 ![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/pipeline%201.png)
 
+**Graphs of the results**
+![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Corn%20Annual%20Price%20graph.png)
+![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Rice%20Annual%20Price%20graph.png)
+![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Wheat%20Annual%20Price%20graph.png)
+![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Price%20Variation%20in%2020225.png)
+
 **Code: A link to GitHub Repository** https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices
 
 **Thorough Investigation: This critically assesses the viability of your idea: Based on the results of this project (your pilot project, your prototype, etc), from a technical leadership point of view, what are your conclusions or recommendations for continuing this project in terms of scaling it up? How would you assess the innovativeness of your project? Any technical or platform concerns, difficulties, or limitations of the pipeline for the project? Based on your experience and results, what next step would you recommend to take this project to the next level/phase?**
