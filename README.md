@@ -18,16 +18,15 @@ Price_corn_ton: Corn price per ton in the definite month and year
 Price_corn_ton_inf: Modern price per ton of corn
 Inflation_rate: İnflation rate constantly changes according to prices.
 
-**Pipeline / Architecture: Which pipeline did you use? Which tools?** For this project I will be using pipeline 1.I’ll be using a modified version of the ingest_data method in the batch_ingest python program that we used in Lab 1 and 2 to pull data from the kaggle api and store it as a pkl file in a S3 Data Lake. Then I will
-be using a modified version of the transform-data method from the transform python program to pull the data from the data lake, transform the one big dataset into three individual product datasets and saving the 3 pkl files in a S3 Data Warehouse. From there I will be using methods we will learn in module 6 to use TensorFlow model selection and model testing to answer the questions made in the “What questions will your project address?” section.
+**Pipeline / Architecture: Which pipeline did you use? Which tools?** For this project I will be using pipeline 1.Tools & Technologies
 
-In the TensorFlow app that I will write I expect the following code flow;
-1. Collect a dataset
-2. Build your model
-3. Train the network
-4. Evaluate the data
-5. Make predictions based on the data
-6. Create graphs to visualize the results
+    Cloud - Amazon Web Services
+    Containerization - Docker 
+    Orchestration - Airflow
+    Data Lake - Amazon Web Services S3
+    Data Warehouse - Amazon Web Services S3
+    Data Visualization - matplotlib.pyplot
+    Language - Python
 
 **Data Quality Assessment: Describe the quality status of the data set and the way you assessed it.** The data quality is high. I assessed it using the methods we learned in lab 2 in the transform.py app.
 
