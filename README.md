@@ -38,7 +38,7 @@ Inflation_rate: İnflation rate constantly changes according to prices.
 
 ![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/pipeline%201.png)
 
-**Graphs of the results** The three Annual Price graphs were created using matplotlib.pyplot. The Price Variations graph 
+**Graphs of the results** The three Annual Price graphs were created using matplotlib.pyplot, years on the bottom, prices on the side. The Price Variations graph was created with seaborn.
 ![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Corn%20Annual%20Price%20graph.png)
 ![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Rice%20Annual%20Price%20Graph.png)
 ![plot](https://github.com/jrnoll/Predicting-the-future-of-Rice-Wheat-or-Corn-Prices/blob/main/Wheat%20Annual%20Price%20Graph.png)
