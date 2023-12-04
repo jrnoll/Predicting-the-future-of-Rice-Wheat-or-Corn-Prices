@@ -18,7 +18,9 @@ Price_corn_ton: Corn price per ton in the definite month and year
 Price_corn_ton_inf: Modern price per ton of corn
 Inflation_rate: İnflation rate constantly changes according to prices.
 
-**Pipeline / Architecture: Which pipeline did you use? Which tools?** For this project I will be using pipeline 1.Tools & Technologies
+**Pipeline / Architecture: Which pipeline did you use? Which tools?** For this project I will be using pipeline 1.
+
+Tools & Technologies
 
     Cloud - Amazon Web Services
     Containerization - Docker 
