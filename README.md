@@ -5,8 +5,7 @@ Predicting rice, wheat and corn prices based on the Kaggle dataset "Cerial Price
 
 **Project’s function:** This is an overall description of your project: What is objective of the project? What is the problem you are trying to solve? I’d like to invest in agricultural products next year. I need a data analysis visualization that will consume historical data and make a prediction for agricultural products prices for or the next few years.
 
-**Dataset: Briefly describe your dataset.** I’ll be using this dataset from the kraggle website: https://www.kaggle.com/datasets/timmofeyy/-cerial-
-prices-changes-within-last-30-years
+**Dataset: Briefly describe your dataset.** I’ll be using this dataset from the kraggle website: https://www.kaggle.com/datasets/timmofeyy/-cerial-prices-changes-within-last-30-years
 This dataset has the following fields:
 Year: A year starting from 1992 ending with 2022
 Month: A month of the year
